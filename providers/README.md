@@ -106,19 +106,19 @@ Directory:
 #### refresh_userinfo
 
 When a user registers with an Anvil Connect instance using an external provider
-for the first time, the server will attempt to map any userinfo available from 
+for the first time, the server will attempt to map any userinfo available from
 that provider to OpenID Connect standard claims before storing the new user.
 
-By default this only happens the first time a user logs in. Anvil Connect can 
+By default this only happens the first time a user logs in. Anvil Connect can
 be configured to refresh and re-map this userinfo each time a user authenticates
-using the `refresh_userinfo` setting. This behavior can be specified globally 
+using the `refresh_userinfo` setting. This behavior can be specified globally
 for the entire server or individually for each provider.
 
 ```json
 {
   // global setting
   "refresh_userinfo": true,
-  
+
   // provider specific setting
   "providers": {
     "github": {
@@ -128,7 +128,7 @@ for the entire server or individually for each provider.
       "refresh_userinfo": true
     }
   }
-  
+
 }
 
 ```
@@ -150,4 +150,4 @@ this folder.
 - [OAuth 2.0](OAuth2.md)
 - [OAuth](OAuth.md)
 - [LDAP and Active Directory](LDAP.md)
-
+- [Passwordless or Email only](Passwordless.md)

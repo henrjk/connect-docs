@@ -2,7 +2,7 @@
 
 When a connect server is configured to support `passwordless` sign-in users can login with their email address. This is akin to password reset flows where typically a reset link is send to the email address on file for a user account.
 
-This feature is experimental and inspired by medium who introduced a an [email login](https://medium.com/the-story/signing-in-to-medium-by-email-aacc21134fcd).
+This feature is experimental and inspired by medium who introduced an [email login](https://medium.com/the-story/signing-in-to-medium-by-email-aacc21134fcd).
 
 ## Email only sign in
 
@@ -43,4 +43,3 @@ When the link is activated you will get a form where you can enter additional us
 ![Create account form](images/06_pwless_signup_your_form.png)
 
 Once this form is submitted with the *SIGN UP* button a user is created and signed in.
- 
